@@ -7,26 +7,26 @@ const Collabs = () => {
 				</div>
 				<div className="flex flex-row justify-around w-full px-32 py-4 gap-2">
 					<img
-						src="/public/assets/images/industry1.webp"
+						src="assets/images/industry1.webp"
 						alt="college partner 1"
 						width={100}
 						className="object-contain"
 					/>
 					<img
-						src="public/assets/images/industry2.png"
+						src="assets/images/industry2.png"
 						alt="college partner 2"
 						width={100}
 						className="object-contain h-[75px] bg-white px-3"
 					/>
 					<img
-						src="public/assets/images/industry3.webp"
+						src="assets/images/industry3.webp"
 						alt="college partner 3"
 						// height={50}
 						width={100}
 						className="object-contain h-[75px]"
 					/>
 					<img
-						src="public/assets/images/industry4.webp"
+						src="assets/images/industry4.webp"
 						alt="college partner 3"
 						width={100}
 						className="object-contain"

@@ -4,7 +4,7 @@ const Header = () => {
 			<div className="flex flex-row justify-between py-3 border-b-[0.5px] border-secondary px-8">
 				<div>
 					<img
-						src="/public/assets/images/logo.png"
+						src="/assets/images/logo.png"
 						alt="YouHire Logo"
 						width={90}
 						// height={10}
