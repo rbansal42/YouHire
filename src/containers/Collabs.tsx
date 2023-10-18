@@ -1,3 +1,5 @@
+import { industry1, industry2, industry3, industry4 } from "../assets/images";
+
 const Collabs = () => {
 	return (
 		<>
@@ -7,26 +9,26 @@ const Collabs = () => {
 				</div>
 				<div className="flex flex-row justify-around w-full px-32 py-4 gap-2">
 					<img
-						src="assets/images/industry1.webp"
+						src={industry1}
 						alt="college partner 1"
 						width={100}
 						className="object-contain"
 					/>
 					<img
-						src="assets/images/industry2.png"
+						src={industry2}
 						alt="college partner 2"
 						width={100}
 						className="object-contain h-[75px] bg-white px-3"
 					/>
 					<img
-						src="assets/images/industry3.webp"
+						src={industry3}
 						alt="college partner 3"
 						// height={50}
 						width={100}
 						className="object-contain h-[75px]"
 					/>
 					<img
-						src="assets/images/industry4.webp"
+						src={industry4}
 						alt="college partner 3"
 						width={100}
 						className="object-contain"

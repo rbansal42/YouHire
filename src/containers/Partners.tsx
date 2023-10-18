@@ -1,3 +1,5 @@
+import { college1, college2, college3, college4 } from "../assets/images";
+
 const Partners = () => {
 	return (
 		<>
@@ -7,26 +9,26 @@ const Partners = () => {
 				</div>
 				<div className="flex flex-row justify-around w-full px-32 py-4 gap-2 ">
 					<img
-						src="assets/images/college1.png"
+						src={college1}
 						alt="college partner 1"
 						width={100}
 						className="object-contain"
 					/>
 					<img
-						src="assets/images/college2.png"
+						src={college2}
 						alt="college partner 2"
 						width={100}
 						className="object-contain"
 					/>
 					<img
-						src="assets/images/college3.png"
+						src={college3}
 						alt="college partner 3"
 						// height={50}
 						width={100}
 						className="object-contain h-[75px]"
 					/>
 					<img
-						src="assets/images/college4.jpg"
+						src={college4}
 						alt="college partner 3"
 						width={100}
 						className="object-contain"

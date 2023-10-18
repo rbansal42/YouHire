@@ -1,10 +1,12 @@
+import { logo } from "../assets/images";
+
 const Header = () => {
 	return (
 		<>
 			<div className="flex flex-row justify-between py-3 border-b-[0.5px] border-secondary px-8">
 				<div>
 					<img
-						src="/assets/images/logo.png"
+						src={logo}
 						alt="YouHire Logo"
 						width={90}
 						// height={10}

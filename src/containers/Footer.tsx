@@ -1,3 +1,5 @@
+import { logo } from "../assets/images";
+
 const Footer = () => {
 	return (
 		<footer className="p-4 bg-background md:p-8 lg:p-10 dark:bg-background">
@@ -5,7 +7,11 @@ const Footer = () => {
 				<a
 					href="#"
 					className="flex justify-center items-center text-2xl font-semibold text-text dark:text-white">
-					<img src="public/assets/images/logo.png" alt="" className="h-12 w56"/>
+					<img
+						src={logo}
+						alt=""
+						className="h-12 w56"
+					/>
 				</a>
 				<p className="my-6 text-text dark:text-gray-400">
 					Get hired... Fast!

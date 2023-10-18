@@ -3,7 +3,7 @@ import logo from "./logo.png";
 import college1 from "./college1.png";
 import college2 from "./college2.png";
 import college3 from "./college3.png";
-import college4 from "./college4.png";
+import college4 from "./college4.jpg";
 
 import industry1 from "./industry1.webp";
 import industry2 from "./industry2.png";
