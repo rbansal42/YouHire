@@ -5,7 +5,7 @@ const Footer = () => {
 				<a
 					href="#"
 					className="flex justify-center items-center text-2xl font-semibold text-text dark:text-white">
-					<img src="src/assets/images/logo.png" alt="" className="h-12 w56"/>
+					<img src="public/assets/images/logo.png" alt="" className="h-12 w56"/>
 				</a>
 				<p className="my-6 text-text dark:text-gray-400">
 					Get hired... Fast!
