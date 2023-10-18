@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
 	return (
 		<>
-			<div className="flex flex-row justify-between py-3 border-b-[0.5px] border-secondary">
+			<div className="flex flex-row justify-between py-3 border-b-[0.5px] border-secondary px-8">
 				<div>
 					<img
 						src="src/assets/images/logo.png"
