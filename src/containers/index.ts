@@ -6,7 +6,7 @@ import Collabs from "./Collabs";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 
-export default {
+export {
 	Header,
 	Hero,
 	Stats,
