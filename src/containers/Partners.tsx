@@ -3,11 +3,11 @@ import React from "react";
 const Partners = () => {
 	return (
 		<>
-			<div className="flex flex-col align-middle items-center py-8">
+			<div className="flex flex-col align-middle items-center py-8 border-b-[0.5px] border-accent">
 				<div className="font-Poppins font-semibold text-2xl">
 					Our College Partners
 				</div>
-				<div className="flex flex-row justify-around w-full px-32 py-4 gap-2 border-b-[0.5px] border-accent">
+				<div className="flex flex-row justify-around w-full px-32 py-4 gap-2 ">
 					<img
 						src="/src/assets/images/college1.png"
 						alt="college partner 1"
