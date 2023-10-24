@@ -3,10 +3,10 @@ import { logo } from "../assets/images";
 const Footer = () => {
 	return (
 		<footer className="p-4 bg-background md:p-8 lg:p-10 dark:bg-background">
-			<div className="mx-auto max-w-screen-xl text-center">
+			<div className="max-w-screen-xl mx-auto text-center">
 				<a
 					href="#"
-					className="flex justify-center items-center text-2xl font-semibold text-text dark:text-white">
+					className="flex items-center justify-center text-2xl font-semibold text-text dark:text-white">
 					<img
 						src={logo}
 						alt=""
@@ -14,9 +14,9 @@ const Footer = () => {
 					/>
 				</a>
 				<p className="my-6 text-text dark:text-gray-400">
-					Get hired... Fast!
+					Placements made easy
 				</p>
-				<ul className="flex flex-wrap justify-center items-center mb-6 text-text dark:text-white">
+				<ul className="flex flex-wrap items-center justify-center mb-6 text-text dark:text-white">
 					<li>
 						<a
 							href="#"

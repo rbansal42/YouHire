@@ -3,7 +3,7 @@ import { college1, college2, college3, college4 } from "../assets/images";
 const Testimonials = () => {
 	return (
 		<>
-			<div className="flex flex-col align-middle items-center border-b-[0.5px] border-accent py-8">
+			<div className="flex flex-col align-middle items-center py-8">
 				<div className="font-Poppins font-semibold text-2xl">
 					Testimonials
 				</div>

@@ -3,7 +3,7 @@ import { logo } from "../assets/images";
 const Header = () => {
 	return (
 		<>
-			<div className="flex flex-row justify-between py-3 border-b-[0.5px] border-secondary px-8">
+			<div className="flex flex-row justify-between py-3 border-b-[0.5px] border-secondary px-8 max-sm:items-center max-sm:justify-center transition-all">
 				<div>
 					<img
 						src={logo}
@@ -12,10 +12,13 @@ const Header = () => {
 						// height={10}
 					/>
 				</div>
-				<div>
-					<span>Get Hired!</span>
+				<div className="max-sm:hidden">
+					<span>
+						Placements made
+						easy!
+					</span>
 				</div>
-				<div>
+				<div className="max-sm:hidden">
 					<span>Time</span>
 				</div>
 			</div>
