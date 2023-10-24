@@ -9,13 +9,14 @@ const LoginPage = () => {
       <div className="flex flex-row bg-background align-middle items-center justify-center h-[80vh]">
         <div
           id="loginCard"
-          className="flex flex-col justify-center items-center align-middle border-[0.5px] border-accent px-8 py-4 font-Poppins w-[40%] sm:w-[70%] max-sm:w-[80%] md:w-[650px]"
-        >
+          className="flex flex-col justify-center items-center align-middle border-[0.5px] border-accent px-8 py-4 font-Poppins w-[40%] sm:w-[70%] max-sm:w-[80%] md:w-[650px]">
           <div className="font-semibold text-2xl w-full border-b-[0.5px] border-accent uppercase tracking-widest justify-center flex pt-2 pb-4 ">
             Login
           </div>
           <div className="flex flex-row items-start justify-start w-full py-4">
-            <form action="/" className="w-full">
+            <form
+              action="/"
+              className="w-full">
               <label htmlFor="userName">Username</label> <br />
               <input
                 type="text"
@@ -36,12 +37,11 @@ const LoginPage = () => {
                 <Link to={"/dashboard"}>
                   <button
                     className="bg-primary hover:bg-gray-100 text-background py-2 px-4 border border-accent rounded shadow font-Poppins transition-all duration-300 min-w-[120px] max-sm:w-full"
-                    type="submit"
-                  >
+                    type="submit">
                     Login
                   </button>
                 </Link>
-                <Link>
+                <Link to={"/login"}>
                   <button className="bg-secondary hover:bg-gray-100 text-text py-2 px-4 border border-accent rounded shadow font-Poppins transition-all duration-300 min-w-[120px] hover:text-black max-sm:w-full">
                     Sign Up
                   </button>
