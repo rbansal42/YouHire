@@ -12,7 +12,7 @@ const DashboardStudent = () => {
           <div className="text-2xl font-semibold col-span-full font-Poppins">
             Available Listings
           </div>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 ">
+          <div className="grid gap-4 lg:grid-cols-2 ">
             <ListingCard></ListingCard>
             <ListingCard></ListingCard>
             <ListingCard></ListingCard>
