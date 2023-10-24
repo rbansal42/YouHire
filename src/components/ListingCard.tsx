@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { company1 } from "../assets/images";
 
 const ListingStudent = () => {
   return (
@@ -19,7 +20,7 @@ const ListingStudent = () => {
           </div>
           <div className="flex-[0.1] align-middle flex rounded-full">
             <img
-              src="src/assets/images/company1.png"
+              src={company1}
               alt="Company Logo"
               className="object-contain w-full rounded-full"
             />
