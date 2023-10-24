@@ -28,7 +28,7 @@ const DashboardStudent = () => {
         <div className="w-full h-full col-span-2 row-span-3 p-8 border rounded-lg border-accent max-md:hidden">
           <div className="grid gap-4 text-2xl font-semibold col-span-full font-Poppins">
             Application Status
-            <div className="grid gap-4 ">
+            <div className="grid gap-4 font-normal">
               <ListingCard></ListingCard>
               <ListingCard></ListingCard>
             </div>
