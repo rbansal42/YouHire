@@ -9,6 +9,8 @@ export default {
 				primary: "#ffb820",
 				secondary: "#3a3a3a",
 				accent: "#757378",
+				success: "bg-gradient-to-r from-cyan-700 to-background",
+				reject: "bg-gradient-to-r from-red-900 to-background"
 			},
 			backgroundImage: {
 				"hero-pattern":
