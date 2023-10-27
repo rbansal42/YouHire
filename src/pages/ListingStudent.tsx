@@ -1,10 +1,11 @@
-import { Footer, Header } from "../containers";
+import { Footer, Header, Navbar } from "../containers";
 import { company1 } from "../assets/images";
 
 const ListingStudent = () => {
   return (
     <>
       <Header />
+	  <Navbar/>
       <div className="flex flex-col gap-4 p-8 font-Poppins">
         {/* Essential details */}
         <div className="border-[0.5px] border-accent p-4 rounded-lg flex flex-col gap-4">
@@ -36,7 +37,6 @@ const ListingStudent = () => {
           <button className="w-48 px-4 py-2 transition-all duration-300 border rounded shadow bg-primary hover:bg-gray-100 text-background border-accent font-Poppins">
             Apply
           </button>
-          <hr className="mt-4 border-accent" />
         </div>
 
         {/* Description */}

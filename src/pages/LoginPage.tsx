@@ -23,6 +23,7 @@ const LoginPage = () => {
                 name="userName"
                 id="login_userName"
                 placeholder="Enter your email/username"
+				required
                 className="w-full py-2 pl-2 pr-6 mt-2 text-sm rounded-md outline-none text-accent"
               />
               <label htmlFor="password">Password</label> <br />
@@ -31,6 +32,7 @@ const LoginPage = () => {
                 name="password"
                 id="login_password"
                 placeholder="Enter your password"
+				required
                 className="w-full py-2 pl-2 pr-6 mt-2 text-sm rounded-md outline-none text-accent"
               />
               <div className="flex flex-row gap-2 pt-4 max-sm:flex-col">
@@ -41,7 +43,7 @@ const LoginPage = () => {
                     Login
                   </button>
                 </Link>
-                <Link to={"/login"}>
+                <Link to={"/signup"}>
                   <button className="bg-secondary hover:bg-gray-100 text-text py-2 px-4 border border-accent rounded shadow font-Poppins transition-all duration-300 min-w-[120px] hover:text-black max-sm:w-full">
                     Sign Up
                   </button>

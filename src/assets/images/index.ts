@@ -12,6 +12,10 @@ import industry4 from "./industry4.webp";
 
 import company1 from "./company1.png";
 
+import student1 from "./student1.jpeg";
+
+import hr1 from "./hr1.jpg";
+
 export {
   logo,
   college1,
@@ -23,4 +27,6 @@ export {
   industry3,
   industry4,
   company1,
+  student1,
+  hr1,
 };

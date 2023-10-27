@@ -5,6 +5,7 @@ import Partners from "./Partners";
 import Collabs from "./Collabs";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 export {
 	Header,
@@ -14,4 +15,5 @@ export {
 	Collabs,
 	Testimonials,
 	Footer,
+	Navbar
 };

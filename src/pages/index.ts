@@ -1,6 +1,11 @@
-import Home from "./Home";
-import LoginPage from "./LoginPage";
-import DashboardStudent from "./DashboardStudent";
-import ListingStudent from "./ListingStudent";
-
-export { Home, LoginPage, DashboardStudent, ListingStudent };
+export { default as Home } from "./Home";
+export { default as LoginPage } from "./LoginPage";
+export { default as SignupPage } from "./SignupPage";
+export { default as DashboardStudent } from "./DashboardStudent";
+export { default as QueryPage } from "./QueryPage";
+export { default as ListingStudent } from "./ListingStudent";
+export { default as ActiveListings } from "./ActiveListings";
+export { default as ActiveQueriesPage } from "./ActiveQueriesPage";
+export { default as AppliedListings } from "./AppliedListings";
+export { default as MyResumes } from "./MyResumes";
+export { default as StudentProfile } from "./StudentProfile";
